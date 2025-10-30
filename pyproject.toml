@@ -5,9 +5,14 @@ description = "Reserved namespace for a future Python API testing toolkit"
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/yourusername/testzen"
+repository = "https://github.com/yourusername/testzen"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
 
 [build-system]
 requires = ["poetry-core"]
